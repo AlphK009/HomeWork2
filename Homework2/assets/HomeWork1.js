@@ -14,6 +14,7 @@ buttons.addEventListener("click", ()=>{
     .then(res =>{
       console.log(res.data.album.artists);
       console.log(res.data.album.images);
+      console.log(res.data);
     })
     .catch(err=>{
       alert('error',err);
